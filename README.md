@@ -1,0 +1,3 @@
+# Stack Overflow Bug in Hack
+
+This repository demonstrates a common error in Hack programs: stack overflow errors caused by unbounded recursion. The `foo` function calculates the factorial recursively, but lacks proper handling for negative inputs and large positive inputs, leading to a stack overflow. The solution demonstrates how to prevent this by adding a check for negative inputs and using iterative approach for efficiency.
